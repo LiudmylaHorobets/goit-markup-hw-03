@@ -1,0 +1,178 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --logo-front: Raleway, sans-serif;
+  --iris-text-cl: #4d5ae5;
+  --ocean-text-cl: #404bbf;
+  --navy-blue-text-cl: #2e2f42;
+  --green-text-cl: #31d0aa;
+  --slate-text-cl: #434455;
+  --light-slate-text-cl: #8e8f99;
+  --cornflower-text-cl: #e7e9fc;
+  --cloud-text-cl: #f4f4fd;
+  --white-text-cl: #ffffff;
+  --dairy-text-cl: #fcfcfc;
+}
+
+/* Reset */
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Body styles */
+
+body {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-cl);
+  background-color: #ffffff;
+}
+
+/* Header section - Navigation */
+
+.logo {
+  font-family: var(--logo-front);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-text-cl);
+}
+.logo-header {
+  color: var(--navy-blue-text-cl);
+}
+.header-item {
+  font-weight: 500;
+  color: var(--navy-blue-text-cl);
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-text-cl);
+}
+.header-link:hover,
+.header-link:focus,
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--ocean-text-cl);
+}
+
+/* Header section - Contacts */
+
+.header-contact {
+  font-style: normal;
+}
+.header-contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-cl);
+}
+
+/* Hero section */
+
+.hero,
+.footer {
+  background-color: var(--navy-blue-text-cl);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-text-cl);
+  text-align: center;
+}
+
+/* Button */
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.btn-dark {
+  color: var(--white-text-cl);
+  background-color: var(--iris-text-cl);
+}
+.btn-light {
+  color: var(--iris-text-cl);
+  background-color: var(--cloud-text-cl);
+}
+.btn:hover,
+.btn:focus,
+.btn-light:hover,
+.btn-light:focus {
+  color: var(--white-text-cl);
+  background-color: var(--ocean-text-cl);
+}
+
+/* Cards section 1 */
+
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-cl);
+}
+
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-text-cl);
+}
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-text-cl);
+  text-align: center;
+}
+.cards-item {
+  background-color: var(--white-text-cl);
+}
+
+/* Team section */
+.page-team {
+  background-color: var(--cloud-text-cl);
+}
+
+/* Footer section */
+
+.logo-footer {
+  color: var(--cloud-text-cl);
+}
+
+/* Portfolio */
+.cards-item-link {
+  text-decoration: none;
+}
+.cards-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-text-cl);
+}
+.cards-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-cl);
+}
