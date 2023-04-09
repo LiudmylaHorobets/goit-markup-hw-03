@@ -15,11 +15,26 @@
 
 /* Reset */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+img {
+  display: block;
+}
+
 .link {
   text-decoration: none;
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Body styles */
@@ -33,8 +48,32 @@ body {
   background-color: #ffffff;
 }
 
-/* Header section - Navigation */
+/* Container */
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
+
+/* Header section */
+
+.header-container {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
 .logo {
   font-family: var(--logo-front);
   font-weight: 800;
@@ -43,6 +82,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris-text-cl);
+  margin-right: 76px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-header {
   color: var(--navy-blue-text-cl);
@@ -52,6 +95,9 @@ body {
   color: var(--navy-blue-text-cl);
 }
 .header-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -64,19 +110,25 @@ body {
 .header-contact-link:focus {
   color: var(--ocean-text-cl);
 }
-
-/* Header section - Contacts */
-
 .header-contact {
   font-style: normal;
+  margin-left: auto;
+}
+.header-contact-list {
+  display: flex;
 }
 .header-contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-cl);
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
-
+.header-contact-item {
+  margin-left: 40px;
+}
 /* Hero section */
 
 .hero,
@@ -105,10 +157,12 @@ body {
 .btn-dark {
   color: var(--white-text-cl);
   background-color: var(--iris-text-cl);
+  min-height: 56px;
 }
 .btn-light {
   color: var(--iris-text-cl);
   background-color: var(--cloud-text-cl);
+  min-height: 48px;
 }
 .btn:hover,
 .btn:focus,
