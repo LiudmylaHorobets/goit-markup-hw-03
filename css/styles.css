@@ -310,6 +310,8 @@ body {
 .portfolio-container {
   padding-top: 96px;
   padding-bottom: 72px;
+  justify-content: center;
+  display: flex;
 }
 .container-portfolio-cards {
   padding: 32px 0 32px 16px;
